@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311670F1175002460036A254 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311670F0175002460036A254 /* Cocoa.framework */; };
+		311670FB175002460036A254 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 311670F9175002460036A254 /* InfoPlist.strings */; };
+		311670FD175002460036A254 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 311670FC175002460036A254 /* main.m */; };
+		31167101175002460036A254 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 311670FF175002460036A254 /* Credits.rtf */; };
+		31167104175002460036A254 /* PRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31167103175002460036A254 /* PRHAppDelegate.m */; };
+		31167107175002460036A254 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31167105175002460036A254 /* MainMenu.xib */; };
+		3116710F175002460036A254 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3116710E175002460036A254 /* SenTestingKit.framework */; };
+		31167110175002460036A254 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311670F0175002460036A254 /* Cocoa.framework */; };
+		31167118175002460036A254 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31167116175002460036A254 /* InfoPlist.strings */; };
+		3116711B175002460036A254 /* Slope_O_MaticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116711A175002460036A254 /* Slope_O_MaticTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31167111175002460036A254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 311670E5175002460036A254 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311670EC175002460036A254;
+			remoteInfo = "Slope-O-Matic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		311670ED175002460036A254 /* Slope-O-Matic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slope-O-Matic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311670F0175002460036A254 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		311670F3175002460036A254 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		311670F4175002460036A254 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		311670F5175002460036A254 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		311670F8175002460036A254 /* Slope-O-Matic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Slope-O-Matic-Info.plist"; sourceTree = "<group>"; };
+		311670FA175002460036A254 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		311670FC175002460036A254 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		311670FE175002460036A254 /* Slope-O-Matic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Slope-O-Matic-Prefix.pch"; sourceTree = "<group>"; };
+		31167100175002460036A254 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		31167102175002460036A254 /* PRHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRHAppDelegate.h; sourceTree = "<group>"; };
+		31167103175002460036A254 /* PRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHAppDelegate.m; sourceTree = "<group>"; };
+		31167106175002460036A254 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3116710D175002460036A254 /* Slope-O-MaticTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slope-O-MaticTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3116710E175002460036A254 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		31167115175002460036A254 /* Slope-O-MaticTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Slope-O-MaticTests-Info.plist"; sourceTree = "<group>"; };
+		31167117175002460036A254 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31167119175002460036A254 /* Slope_O_MaticTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slope_O_MaticTests.h; sourceTree = "<group>"; };
+		3116711A175002460036A254 /* Slope_O_MaticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slope_O_MaticTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311670EA175002460036A254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311670F1175002460036A254 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31167109175002460036A254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3116710F175002460036A254 /* SenTestingKit.framework in Frameworks */,
+				31167110175002460036A254 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311670E4175002450036A254 = {
+			isa = PBXGroup;
+			children = (
+				311670F6175002460036A254 /* Slope-O-Matic */,
+				31167113175002460036A254 /* Slope-O-MaticTests */,
+				311670EF175002460036A254 /* Frameworks */,
+				311670EE175002460036A254 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		311670EE175002460036A254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				311670ED175002460036A254 /* Slope-O-Matic.app */,
+				3116710D175002460036A254 /* Slope-O-MaticTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		311670EF175002460036A254 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				311670F0175002460036A254 /* Cocoa.framework */,
+				3116710E175002460036A254 /* SenTestingKit.framework */,
+				311670F2175002460036A254 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		311670F2175002460036A254 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				311670F3175002460036A254 /* AppKit.framework */,
+				311670F4175002460036A254 /* CoreData.framework */,
+				311670F5175002460036A254 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		311670F6175002460036A254 /* Slope-O-Matic */ = {
+			isa = PBXGroup;
+			children = (
+				31167102175002460036A254 /* PRHAppDelegate.h */,
+				31167103175002460036A254 /* PRHAppDelegate.m */,
+				31167105175002460036A254 /* MainMenu.xib */,
+				311670F7175002460036A254 /* Supporting Files */,
+			);
+			path = "Slope-O-Matic";
+			sourceTree = "<group>";
+		};
+		311670F7175002460036A254 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				311670F8175002460036A254 /* Slope-O-Matic-Info.plist */,
+				311670F9175002460036A254 /* InfoPlist.strings */,
+				311670FC175002460036A254 /* main.m */,
+				311670FE175002460036A254 /* Slope-O-Matic-Prefix.pch */,
+				311670FF175002460036A254 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31167113175002460036A254 /* Slope-O-MaticTests */ = {
+			isa = PBXGroup;
+			children = (
+				31167119175002460036A254 /* Slope_O_MaticTests.h */,
+				3116711A175002460036A254 /* Slope_O_MaticTests.m */,
+				31167114175002460036A254 /* Supporting Files */,
+			);
+			path = "Slope-O-MaticTests";
+			sourceTree = "<group>";
+		};
+		31167114175002460036A254 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31167115175002460036A254 /* Slope-O-MaticTests-Info.plist */,
+				31167116175002460036A254 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		311670EC175002460036A254 /* Slope-O-Matic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3116711E175002460036A254 /* Build configuration list for PBXNativeTarget "Slope-O-Matic" */;
+			buildPhases = (
+				311670E9175002460036A254 /* Sources */,
+				311670EA175002460036A254 /* Frameworks */,
+				311670EB175002460036A254 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slope-O-Matic";
+			productName = "Slope-O-Matic";
+			productReference = 311670ED175002460036A254 /* Slope-O-Matic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3116710C175002460036A254 /* Slope-O-MaticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31167121175002460036A254 /* Build configuration list for PBXNativeTarget "Slope-O-MaticTests" */;
+			buildPhases = (
+				31167108175002460036A254 /* Sources */,
+				31167109175002460036A254 /* Frameworks */,
+				3116710A175002460036A254 /* Resources */,
+				3116710B175002460036A254 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31167112175002460036A254 /* PBXTargetDependency */,
+			);
+			name = "Slope-O-MaticTests";
+			productName = "Slope-O-MaticTests";
+			productReference = 3116710D175002460036A254 /* Slope-O-MaticTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		311670E5175002460036A254 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PRH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Peter Hosey";
+			};
+			buildConfigurationList = 311670E8175002460036A254 /* Build configuration list for PBXProject "Slope-O-Matic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 311670E4175002450036A254;
+			productRefGroup = 311670EE175002460036A254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				311670EC175002460036A254 /* Slope-O-Matic */,
+				3116710C175002460036A254 /* Slope-O-MaticTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		311670EB175002460036A254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311670FB175002460036A254 /* InfoPlist.strings in Resources */,
+				31167101175002460036A254 /* Credits.rtf in Resources */,
+				31167107175002460036A254 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3116710A175002460036A254 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31167118175002460036A254 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3116710B175002460036A254 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		311670E9175002460036A254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311670FD175002460036A254 /* main.m in Sources */,
+				31167104175002460036A254 /* PRHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31167108175002460036A254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3116711B175002460036A254 /* Slope_O_MaticTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31167112175002460036A254 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311670EC175002460036A254 /* Slope-O-Matic */;
+			targetProxy = 31167111175002460036A254 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		311670F9175002460036A254 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311670FA175002460036A254 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		311670FF175002460036A254 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31167100175002460036A254 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		31167105175002460036A254 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31167106175002460036A254 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		31167116175002460036A254 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31167117175002460036A254 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3116711C175002460036A254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3116711D175002460036A254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3116711F175002460036A254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slope-O-Matic/Slope-O-Matic-Prefix.pch";
+				INFOPLIST_FILE = "Slope-O-Matic/Slope-O-Matic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31167120175002460036A254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slope-O-Matic/Slope-O-Matic-Prefix.pch";
+				INFOPLIST_FILE = "Slope-O-Matic/Slope-O-Matic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		31167122175002460036A254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Slope-O-Matic.app/Contents/MacOS/Slope-O-Matic";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slope-O-Matic/Slope-O-Matic-Prefix.pch";
+				INFOPLIST_FILE = "Slope-O-MaticTests/Slope-O-MaticTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		31167123175002460036A254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Slope-O-Matic.app/Contents/MacOS/Slope-O-Matic";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Slope-O-Matic/Slope-O-Matic-Prefix.pch";
+				INFOPLIST_FILE = "Slope-O-MaticTests/Slope-O-MaticTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		311670E8175002460036A254 /* Build configuration list for PBXProject "Slope-O-Matic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3116711C175002460036A254 /* Debug */,
+				3116711D175002460036A254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3116711E175002460036A254 /* Build configuration list for PBXNativeTarget "Slope-O-Matic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3116711F175002460036A254 /* Debug */,
+				31167120175002460036A254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31167121175002460036A254 /* Build configuration list for PBXNativeTarget "Slope-O-MaticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31167122175002460036A254 /* Debug */,
+				31167123175002460036A254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 311670E5175002460036A254 /* Project object */;
+}
