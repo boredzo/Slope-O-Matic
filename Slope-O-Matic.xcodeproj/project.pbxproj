@@ -17,6 +17,8 @@
 		31167110175002460036A254 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311670F0175002460036A254 /* Cocoa.framework */; };
 		31167118175002460036A254 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31167116175002460036A254 /* InfoPlist.strings */; };
 		3116711B175002460036A254 /* Slope_O_MaticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116711A175002460036A254 /* Slope_O_MaticTests.m */; };
+		311671271750026B0036A254 /* PRHSlopeCalculatorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311671251750026B0036A254 /* PRHSlopeCalculatorWindowController.m */; };
+		31167129175002770036A254 /* PRHSlopeCalculatorWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3116712B175002770036A254 /* PRHSlopeCalculatorWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		31167117175002460036A254 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31167119175002460036A254 /* Slope_O_MaticTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slope_O_MaticTests.h; sourceTree = "<group>"; };
 		3116711A175002460036A254 /* Slope_O_MaticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slope_O_MaticTests.m; sourceTree = "<group>"; };
+		311671241750026B0036A254 /* PRHSlopeCalculatorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHSlopeCalculatorWindowController.h; sourceTree = "<group>"; };
+		311671251750026B0036A254 /* PRHSlopeCalculatorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHSlopeCalculatorWindowController.m; sourceTree = "<group>"; };
+		3116712A175002770036A254 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/PRHSlopeCalculatorWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				31167102175002460036A254 /* PRHAppDelegate.h */,
 				31167103175002460036A254 /* PRHAppDelegate.m */,
 				31167105175002460036A254 /* MainMenu.xib */,
+				311671241750026B0036A254 /* PRHSlopeCalculatorWindowController.h */,
+				311671251750026B0036A254 /* PRHSlopeCalculatorWindowController.m */,
+				3116712B175002770036A254 /* PRHSlopeCalculatorWindowController.xib */,
 				311670F7175002460036A254 /* Supporting Files */,
 			);
 			path = "Slope-O-Matic";
@@ -228,6 +236,7 @@
 				311670FB175002460036A254 /* InfoPlist.strings in Resources */,
 				31167101175002460036A254 /* Credits.rtf in Resources */,
 				31167107175002460036A254 /* MainMenu.xib in Resources */,
+				31167129175002770036A254 /* PRHSlopeCalculatorWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +273,7 @@
 			files = (
 				311670FD175002460036A254 /* main.m in Sources */,
 				31167104175002460036A254 /* PRHAppDelegate.m in Sources */,
+				311671271750026B0036A254 /* PRHSlopeCalculatorWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +326,14 @@
 				31167117175002460036A254 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3116712B175002770036A254 /* PRHSlopeCalculatorWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3116712A175002770036A254 /* en */,
+			);
+			name = PRHSlopeCalculatorWindowController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

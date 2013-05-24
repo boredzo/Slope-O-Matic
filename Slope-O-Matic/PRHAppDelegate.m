@@ -1,18 +1,19 @@
-//
-//  PRHAppDelegate.m
-//  Slope-O-Matic
-//
-//  Created by Peter Hosey on 2013-05-24.
-//  Copyright (c) 2013 Peter Hosey. All rights reserved.
-//
-
 #import "PRHAppDelegate.h"
+#import "PRHSlopeCalculatorWindowController.h"
 
 @implementation PRHAppDelegate
-
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	// Insert code here to initialize your application
+	PRHSlopeCalculatorWindowController *_windowController;
+}
+
+- (void) applicationWillFinishLaunching:(NSNotification *)notification {
+	_windowController = [[PRHSlopeCalculatorWindowController alloc] init];
+	[_windowController showWindow:nil];
+}
+
+- (void) applicationWillTerminate:(NSNotification *)notification {
+	[_windowController close];
+	_windowController = nil;
 }
 
 @end
