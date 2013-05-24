@@ -53,10 +53,12 @@
 - (CGFloat) slopeForAngleInDegrees:(CGFloat)angleInDegrees {
 	CGFloat angleAsFraction = angleInDegrees / 360.0;
 	CGFloat angleInRadians = angleAsFraction * (M_PI * 2.0);
-	CGFloat cosine = cos(angleInRadians);
-	if (fabs(cosine) <= DBL_EPSILON)
+
+	//Ensure that we return infinity (a useful value in this context), not some random nonsense, for vertical slopes.
+	if (fabs(cos(angleInRadians)) <= DBL_EPSILON)
 		return INFINITY;
-	return sin(angleInRadians) / cosine;
+
+	return tan(angleInRadians);
 }
 
 @end
